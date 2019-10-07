@@ -1,0 +1,133 @@
+
+.pro-pic
+{
+    margin-top: 50px
+}
+
+.about-me
+{
+    margin-top: 100px;
+}
+
+.about-me h1
+{
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+}
+
+.effects h1
+{
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+}
+.about-me h4
+{
+
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px
+}
+
+
+h4
+{
+
+    font-family: 'Anton', sans-serif;
+}
+h3
+{
+
+    font-family: 'Anton', sans-serif;
+}
+
+
+nav a
+{
+    float: left;
+    padding:30px; 
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+form input{
+    text-align: center;
+
+
+}
+
+a:hover
+{
+    background-color: #cccccc;
+}
+
+img[src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]{
+    visibility:hidden;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+.bounce {
+    animation-name: bounce;
+}
+
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+}
+
+@keyframes delayedShow {
+    to {
+        visibility: visible;
+    }
+}
+
+.delayedShow{
+    visibility: hidden;
+    animation: 0s linear 2s forwards delayedShow ;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    padding: 1rem;
+    float: left
+
+}
+
+.uk-navbar-container.uk-light:not(.uk-navbar-transparent):not(.uk-navbar-primary) {
+    background: none;
+}
+
+#mobile-navbar .uk-offcanvas-bar {
+    box-shadow: 2px 0 5px 0 #0e0e0e;
+}
+#mobile-navbar li:nth-child(1),
+#mobile-navbar li:nth-child(2),
+#mobile-navbar li:nth-child(3) {
+    border-left: unset;
+}
+#mobile-navbar li {
+    padding-left: 5px;
+    border-left: 2px solid transparent;
+    color:black;
+}
+#mobile-navbar li.uk-active {
+    padding-left: 5px;
+    border-left: 2px solid #545454;
+}
+
+.uk-sticky-fixed {
+    box-shadow: 0 1px 5px 0 #0e0e0e;
+}
+
+h1{
+    font-weight: 2000
+}

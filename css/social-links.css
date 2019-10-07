@@ -1,0 +1,69 @@
+.social-container-wrap {width:100%;height:auto;margin:auto;padding:50px 0;-webkit-transition: all .2s ease-out;
+                        -moz-transition: all .2s ease-out;
+                        -ms-transition: all .2s ease-out;
+                        -o-transition: all .2s ease-out;
+                        transition: all .2s ease-out;
+                        margin-top: 5%}
+.social-container {
+    margin: 0 auto;
+    width: 285px;
+    height: 260px;
+    padding-left: 30px;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    text-align: center;
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* Button Styles */
+.social-container a {
+    display: block;
+    position:relative;
+    height: 4em;
+    width: 4em;
+    line-height: 4em;
+    float:left;
+    margin-right:20px;
+    margin-top:20px;
+    text-align: center;    
+    border: 1px solid rgba(255,255,255,.3);
+    color: rgba(255,255,255,.6);
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+}
+.social-container .twitter{color:#00aced;border-color:black;}
+.social-container .facebook{color:#3b5998;border-color:black;}
+.social-container .googleplus{color:#dd4b39;border-color:black;}
+.social-container .pinterest{color:#cc2127;border-color:black;}
+.social-container .dribbble{color:#ea4c89;border-color:black;}
+.social-container .instagram{color:#5c3d2e;border-color:black;}
+.social-container .linkedin{color:#007fb1;border-color:black;}
+.social-container .envelope{color:#aaca62;border-color:black;}
+.social-container .codepen{color:black;border-color:black;}
+.social-container a i {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+.social-container a:hover{ background-color: black !important;color: white !important}
